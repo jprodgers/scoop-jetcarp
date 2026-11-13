@@ -1,6 +1,6 @@
 {
     "##": "The source of truth for JETCARP's Scoop manifest. The release workflow fills in the version and the checksum (packaging/package.py manifests) and writes the result to the bucket, github.com/jprodgers/scoop-jetcarp, as bucket/jetcarp.json.",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "description": "Cellular automata on almost any tiling of the plane: an app, a command line, scripting and an MCP server.",
     "homepage": "https://jprodgers.github.io/jetcarp/",
     "license": "Unlicense|MIT",
@@ -10,9 +10,9 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jprodgers/jetcarp/releases/download/v0.4.0/jetcarp-0.4.0-x86_64-pc-windows-msvc.zip",
-            "hash": "84324c6d19089a271753f1e98e2c1e983a6bd5cb61c9217caabed6f8f0a9b490",
-            "extract_dir": "jetcarp-0.4.0-x86_64-pc-windows-msvc"
+            "url": "https://github.com/jprodgers/jetcarp/releases/download/v0.4.1/jetcarp-0.4.1-x86_64-pc-windows-msvc.zip",
+            "hash": "247d505f550da3573c5441663167bc550a953e59d4bda5d5b427f1e740eb8426",
+            "extract_dir": "jetcarp-0.4.1-x86_64-pc-windows-msvc"
         }
     },
     "bin": "jetcarp.exe",
